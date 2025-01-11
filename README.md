@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust:  accessing a vector element using an index that is out of bounds. The `bug.rs` file contains the buggy code, which can lead to a runtime panic. The solution is shown in `bugSolution.rs`.  The solution adds a check to ensure the index is within the valid range before accessing the vector element, preventing the panic.
